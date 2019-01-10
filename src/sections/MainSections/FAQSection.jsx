@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 
-class QuestionsSections extends Component {
+class FAQSection extends Component {
     state = {  }
     render() { 
         return ( 
             <div>
+                <section className="section has-background-primary" id="faq">
+                    <h2 className="title is-2 is-size-3-mobile has-text-centered has-text-white" >Preguntas <strong className="has-text-white">frecuentes</strong></h2>
+                    <p className="subtitle is-5 has-text-centered marginTop has-text-white">Nuestro equipo está dispuesto a ayudarte.</p>
                     <div className="container">
                         <div className="columns is-multiline marginTop">
                             <div className="column is-half">
@@ -73,10 +76,11 @@ class QuestionsSections extends Component {
                                 </article>  
                             </div>
                         </div>
-                    </div>
+                    </div>                
+                </section>
             </div>
         );
     }
 }
  
-export default QuestionsSections;
+export default FAQSection;

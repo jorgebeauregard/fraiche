@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import MainComponent from './components/MainComponent';
-import FAQComponent from './components/FAQComponent';
 import FooterComponent from './components/FooterComponent';
 import NavComponent from './components/NavComponent';
 

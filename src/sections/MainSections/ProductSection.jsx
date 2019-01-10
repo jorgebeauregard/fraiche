@@ -19,7 +19,7 @@ class ProductSection extends Component {
     render() { 
         return ( 
             <div>
-                <section className="section has-background-white-ter">
+                <section className="section has-background-white-ter" id="products">
                     <br/>
                     <Fade top>
                     <h2 className="title is-2 is-size-3-mobile has-text-centered">Productos <strong className="has-text-primary">destacados</strong></h2>
@@ -42,7 +42,7 @@ class ProductSection extends Component {
                                 <div className="tile is-parent">
                                     <article className="tile is-child notification has-background-liliana box-shadow">
                                         <p className="title has-text-white">Para mujeres</p>
-                                        <p className="subtitle has-text-white">Tu piel no volverá a ser la misma con nuestra nueva linea de cremas Soft Skin de Fraiche.</p>
+                                        <p className="subtitle has-text-white">Para la mujer romántica que quiere destacar. Escoge tu aroma y disfruta.</p>
                                         <figure className="image is-1by1">
                                             <img src={liliana}/>
                                         </figure>
@@ -54,7 +54,7 @@ class ProductSection extends Component {
                                 <div className="tile is-parent">
                                     <article className="tile is-child notification has-background-softSkin box-shadow">
                                         <p className="title has-text-white is-size-4-fullhd">Soft Skin</p>
-                                        <p className="subtitle has-text-white is-size-6-fullhd">Tu piel no volverá a ser la misma con nuestra nueva linea de cremas Soft Skin de Fraiche.</p>
+                                        <p className="subtitle has-text-white is-size-6-fullhd">Tu piel no volverá a ser la misma con nuestra nueva línea de cremas Soft Skin de Fraiche.</p>
                                         <figure className="image is-1by1">
                                             <img src={softSkin}/>
                                         </figure>

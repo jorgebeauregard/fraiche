@@ -6,7 +6,7 @@ class FooterComponent extends Component {
     render() { 
         return ( 
             <div>
-                <footer className="footer has-background-primary is-medium">
+                <footer className="footer has-background-primary is-medium" id="contact">
                     <div className="container">
                         <div className="content">
                             <div className="columns">
@@ -29,12 +29,16 @@ class FooterComponent extends Component {
                                     
                                 </div>
                                 <div className="column has-text-right-fullhd">
-                                    <span className="icon is-large">
-                                        <i className="fab fa-2x fa-facebook has-text-white"></i>
-                                    </span>
-                                    <span className="icon is-large">
-                                        <i className="fas fa-2x fa-envelope has-text-white"></i>
-                                    </span>
+                                    <a href="https://www.facebook.com/Perfumes-Fraiche-Veracruz-130834194115/">
+                                        <span className="icon is-large">
+                                            <i className="fab fa-2x fa-facebook has-text-white"></i>
+                                        </span>
+                                    </a>
+                                    <a href="mailto:clientes@fraicheveracruz.com.mx">
+                                        <span className="icon is-large">
+                                            <i className="fas fa-2x fa-envelope has-text-white"></i>
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
                         </div>

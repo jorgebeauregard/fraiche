@@ -28,9 +28,12 @@ class NavComponent extends Component {
                         </div>
                         <div id="navbarMenuHeroC" className={this.renderIsActive()} >
                             <div className="navbar-end">
-                                <a className="navbar-item has-text-white" href="/">Inicio</a>
-                                <a className="navbar-item has-text-white">Preguntas frecuentes</a>
-                                <a className="navbar-item has-text-white">Contacto</a>
+                                <a className="navbar-item has-text-white" href="/" onClick={this.toggleIsActive}>Inicio</a>
+                                <a className="navbar-item has-text-white" href="#who" onClick={this.toggleIsActive}>Quiénes somos</a>
+                                <a className="navbar-item has-text-white" href="#branch" onClick={this.toggleIsActive}>Sucursales</a>
+                                <a className="navbar-item has-text-white" href="#products" onClick={this.toggleIsActive}>Productos destacados</a>
+                                <a className="navbar-item has-text-white" href="#faq" onClick={this.toggleIsActive}>Preguntas frecuentes</a>
+                                <a className="navbar-item has-text-white" href="#contact" onClick={this.toggleIsActive}>Contacto</a>
                             </div>
                         </div>
                     </div>

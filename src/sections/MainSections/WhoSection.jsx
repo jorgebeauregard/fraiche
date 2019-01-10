@@ -25,14 +25,13 @@ class WhoSection extends Component {
     render() { 
         return ( 
             <div>
-                <section className="section has-background-white-ter">
+                <section className="section has-background-white-ter" id="who">
                     <Fade top>
                     <br/><h2 className="title is-2 is-size-3-mobile has-text-centered">Acerca de <strong className="has-text-primary">nosotros</strong></h2>
                     <p className="subtitle is-5 has-text-centered marginTop animated fadeIn">Te invitamos a conocer un poco más de lo que hacemos.</p>
                     </Fade>
                     <div className="container">
                         <div className="columns marginTop">
-                        
                             <div className="column">
                                 <article className={this.state.firstCard}>
                                     <figure className="media-left">
